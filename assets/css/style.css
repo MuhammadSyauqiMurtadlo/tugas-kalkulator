@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(6, 6, 6);
+    background-image: url(../img/bg-img.jpg);
+    background-size: cover;
+    height: 106vh;
+    background-position: top center;
+}
+
+
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255, 0.9);
+    width: 90%;
+    max-width: 600px;
+    border-radius: 20px;
+    border-bottom: 50px solid rgb(42, 116, 255);
+    padding: 40px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+}
+
+.container-h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 16px;
+    padding-bottom: 16px;
+    color: rgb(0, 0, 0,);
+    border-bottom: 4px solid rgb(42, 166, 255);
+}
+
+.form-group{
+    padding: 4px 0;
+}
+
+.form-group .control-label{
+    position: relative;
+    float: left;
+    width: 15%;
+    padding-top: 8px;
+    padding-right: 18px;
+    margin-bottom: 0;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(0, 0, 0,);
+}
+
+.form-group .control-input{
+    position: relative;
+    float: left;
+    width: 85%;
+}
+
+.form-group .form-control{
+    display: block;
+    width: 100%;
+    height: 36px;
+    margin: 0;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #808080;
+    background: rgba(255, 255, 255, 0.7);
+}
